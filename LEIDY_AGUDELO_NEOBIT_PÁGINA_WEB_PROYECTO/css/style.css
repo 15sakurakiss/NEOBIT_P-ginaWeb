@@ -1,0 +1,471 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+header{
+ 	height: 90px;
+	width: 100%;
+	display: flex;
+	position: fixed;
+	box-shadow: 0px 1px 10px 0.8px black;
+	z-index: 99;
+	display: inline-block;
+	
+}
+
+
+nav{
+	width: 100%;
+	height: 90px;
+	/*background:#F0A8A8;*/
+	background: #CC5C5C;
+	box-shadow: 0px 1px 10px 0.8px #707070;
+	display: inline-block;
+	text-decoration: none;
+	position: relative;
+	display: flex;
+	position: fixed;
+	margin: auto;
+
+}
+
+ul{
+	display: block;
+	/*display: block;*/
+	list-style: none;
+	text-decoration: none;
+	background-position: center;
+	margin: auto;
+}
+
+ul li {	
+	display: inline-block;
+	text-align: center;
+}
+
+a:hover{
+	color: #F2D679;
+	text-decoration: none;
+}
+
+img#logo{
+	float: left;
+	display: block;
+	margin-left: 15px;
+	margin-top:99px;
+	-webkit-transition: width .5s, height .5s, margin-right.5s, margin-top .5s;
+	cursor: pointer;
+
+}
+
+
+ul li a{
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	float: left;
+	list-style: none;
+	text-align: center;
+	float: left;
+	margin: 30px;
+	cursor: pointer;
+	font-family: Merriweather;
+	}
+
+
+#C1{
+	position: relative;
+	height: 600px;
+	width: 100%;
+	position: relative;
+	background: #E6C8C3;
+	background: url(../Imas/Changüa.jpg) no-repeat;
+	background-position: center;
+	background-size: cover; 
+
+}
+
+#C1 img{
+	width: 100%;
+	height: 100%;
+	position: relative;
+
+
+}
+
+/*NEOBIT*/
+.cajaContainer{
+	position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50.7%;
+    top: 59%;
+}
+
+.title{
+    font-weight: 1000;
+    color: transparent;
+    font-family: ;
+    font-size: 270px;
+    background: url(../Imas/Ingredientes.jpg) repeat;
+    background-position: center center;
+    background-size: 200%;
+    -webkit-background-clip: text;
+    position: relative;
+    text-align: center;
+    line-height: 100%;
+    letter-spacing: -8px;
+}
+
+/*NEOBIT*/
+#C2{
+	height: 600px;
+	width: 100%;
+	position: relative;
+}
+
+
+#C3 #container{
+	height: 600px;
+	width: 100%;
+	background: #ffffff;
+	position: relative;
+}
+
+.container h2 {
+	font-family: 'Merriweather';
+}
+
+
+h5 {
+	text-align: center;
+	justify-content: center;
+
+}
+
+/*imágenes automáticas*/
+
+
+.slidershow {
+	width: 100%;
+	height: 100%;
+	position: relative;
+
+}
+
+.slider ul {
+	margin: 0 auto;
+	list-style: none;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	font-family: Merriweather;
+	text-align: center;
+	justify-content: center;
+
+}
+
+.slider li {
+	overflow: hidden;
+	font-size: 50px;
+}
+
+
+.slider li img {
+	width: 100%;
+	height: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+
+
+.slider .caption {
+
+	padding: 15px 50px;
+	color: #fff;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	z-index: 1;
+	cursor: pointer;
+
+
+}
+
+.slider .caption h1{
+	font-size: 85px;
+	text-align: center;
+}
+
+.slider .caption p{
+	margin-top: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+.slider h1, p {
+	font-family: Merriweather;	
+}
+
+
+.left, .right {
+	position: absolute;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	color: #000000;
+	font-size: 50px;
+	z-index: 2;
+	cursor: pointer;
+
+}
+
+.left {
+	left: 15px;
+}
+
+.right {
+	right: 15px;
+}
+
+/*fin de imágenes automáticas*/
+
+	
+#C4{
+	height: 600px;
+	width: 100%;
+	/*background: #CFBABA;*/
+	background: #D99F82; 
+	position: relative;
+	justify-content: center;
+
+}
+
+#C4 p {
+
+	position: absolute;
+	font-size: 50px;
+	display: block;
+	padding-left: 55px;
+	color: #fff;
+	justify-content: center;
+
+}
+
+
+.plato2{
+padding-left: 150px;
+
+}
+
+
+.contenedor_imag{
+	width: 449.5px;
+	position: relative;
+	float: left;
+	margin: 0;
+}
+
+.plato1{
+	position: relative;
+	height: 600px;
+	background: url(../Imas/FileteEspacial.jpg); 
+	background-position: center;
+	background-size: cover;
+
+
+}	
+
+.plato2{
+	position: relative;
+	height: 600px;
+	background: url(../Imas/Asia.jpg); 
+	background-position: center;
+	background-size: cover;
+
+
+}
+
+.plato3{
+
+	position: relative;
+	height: 600px;
+	background: url(../Imas/Vegetal.jpg); 
+	background-position: center;
+	background-size: cover;
+
+
+}
+
+
+#C5{
+	height: 600px;
+	width: 100%;
+	background: #994545;
+	/*background: #BF8F8F;*/
+	position: relative;
+	display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+
+}
+
+
+/*tarjetas*/
+
+.tarjeta-wrap{
+	margin: auto;
+	-webkit-perspective: 800;
+	perspective: 800;
+
+}
+
+.tarjeta{
+	display: inline-block;
+	width: 430px;
+	height: 530px;
+	background: #E6BFAC;
+	/*background: #CFCABA;*/
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transition: .7s ease;
+	transition: .7s ease;
+	-webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+	box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+
+}
+
+.adelante, .atras{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.adelante{
+	width: 100%;
+}
+
+.atras{
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+	padding: 15px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+	font-family: "Merriweather";
+}
+
+.tarjeta-wrap:hover .tarjeta{
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+.atras p {
+	font-size: 40px;
+
+}
+
+.card1{
+	background-image: url(../Imas/Pay.jpg);
+	background-size: cover;
+
+}
+
+.card2{
+	background-image: url(../Imas/Pudín.jpg);
+	background-size: cover;
+
+}
+
+.card3{
+	background-image: url(../Imas/PasteldeArroz.jpg);
+	background-size: cover;
+
+}
+
+/*-fin de tajetas*/
+
+
+
+
+
+#C6{
+	height: 600px;
+	width: auto;
+	background: #707070; 
+	position: relative;
+}
+
+.container h2, label, button {
+	font-family: 'Merriweather';
+}
+
+
+
+h1{
+	text-align: center;
+	font-size: 3vw;
+
+}
+
+p{
+	text-align: center;
+	font-size: 15px;
+
+}
+
+.iconos a{
+	color: #CC5C5C;
+	margin: 5px;
+}
+
+
+footer{
+	padding: 32px;
+}
+
+.gris-claro{
+	background-color: #ececec;
+}
+
+section{
+  padding: 50px;
+}
+
+
+
+
+
